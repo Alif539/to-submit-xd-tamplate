@@ -1,0 +1,476 @@
+*{margin: 0;padding: 0; box-sizing: border-box;}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body{font-family: 'Poppins', sans-serif;}
+.fl{float:left;}
+.fr{float: right;}
+.fix{overflow: hidden;}
+h1{ font-size: 35px;color: #42495B;}
+p{ font-size: 10px; color:#42495B; opacity: 0.7;}
+h2{font-size: 26px;color: #42495B;}
+h3{font-size: 26px;color: #42495B; font-weight: 700;}
+h6{ font-weight: 400;font-size: 10px;color:#190ae2 ;}
+h5{font-size: 11px;color: #42495B;}
+ul li{list-style: none;display: inline-block;}
+ul li a{text-decoration: none ; font-size: 12px; color:whitesmoke; }
+a{text-decoration: none;font-size: 12px;}
+img{width: 100%;}
+.WidthHundread{width: 100%;}
+.widthFifty{width:45%;margin-left: 2.5% ;margin-right: 2.5%;}
+.widthThirty{width: 30%;margin-left: 1.5% ;margin-right: 1.5%;}
+.widthTwentyfive{width:22%;margin-left: 1.5% ;margin-right: 1.5%;}
+/* global css ends here */
+
+/* sizing css starts here */
+/* .container{width:min(960px,96%);margin:0 auto;  */
+.container{width: 960px;max-width: 96%;margin:0 auto;}
+.structure{width: 70%;margin:0 auto;}
+/* sizing css ends here */
+/* Header Section Starts Here */
+.headerSection {
+    position: relative;
+    z-index: 1
+}
+.headerSection::before{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    height: 70%;
+    width: 54%;
+    top: 0px;
+    right: 0px;
+    background-image: url(images/HeaserBg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navLogo {
+    width: 30%;
+}
+.navLogoIMg {
+    width: 65%;
+}
+.navMenu { 
+    width: 70%;
+    padding: 10px 0px;
+}
+.navMenu ul {
+    text-align: right;
+}
+.navMenu ul li {
+    padding: 5px 2px 5px 2px;
+}
+.navMenu ul li a {
+    margin: 0px 3px 0px 3px;
+}
+.navMenu ul li a:hover {
+    color: black;
+}
+/* banner section */
+.BannerArea  {
+    padding: 100px 0px;
+    position: relative;
+    z-index: 1
+}
+.BannerArea::before{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    height: 64%;
+    width: 37%;
+    top: 47px;
+    right: 87px;
+    background-image: url(images/bannerBG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.BannerSocial1{
+    position:absolute;
+    top: 210px;
+    left: 35px;
+    z-index: -4;
+}
+.BannerSocial1:hover{
+    filter: invert(60%);
+}
+.BannerSocial2{
+    position:absolute;
+    top: 170px;
+    left: 35px;
+    z-index: -4;
+}
+.BannerSocial2:hover{
+    filter: invert(60%);
+}
+.BannerSocial3{
+    position:absolute;
+    top: 300px;
+    left: 35px;
+    z-index: -4;
+}
+.BannerSocial3:hover{
+    filter: invert(60%);
+}
+.BannerSocial4{
+    position:absolute;
+    top: 250px;
+    left: 35px;
+    z-index: -4;
+}
+.BannerSocial4:hover{
+    filter: invert(60%);
+}
+.BannerHTwoOne h2 {
+    font-weight: 400;
+}
+.BannerHOneOne {
+    margin-top: -8px;
+}
+.BannerPOneOne { 
+    width:30% ;
+    margin-bottom: 10px;
+}
+.headrbtn input[type=submit] {
+    background-image: linear-gradient(to right, #190ae2 60%,#6f69f0);
+    border: none;
+    border-radius: 26px;
+    padding: 8px 22px;
+    font-size: 9px;
+    color: whitesmoke;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow:0px 0px 3px #9792e4;
+}
+.headrbtn input[type=submit]:hover{
+    box-shadow: 0px 0px 10px #190ae2;
+}
+.MouseImg{
+    width: 11%;
+    margin: 0 auto;
+    padding: 100px 0px 0px 0px;
+}
+.mainMouseIMg{
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 50px;
+}
+.mainMouseIMg a img{
+    border-radius: 50px;
+}
+.mainMouseIMg a img:hover{
+    box-shadow: 0px 0px 10px #6f69f0;
+    transition: 0.3s ease;
+}
+/* Header Section Ends Here */
+/* our intro Section starts her */
+.introSection{
+    position: relative;
+    z-index: 1;
+}
+.introSection::before{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    height: 91%;
+    width: 50%;
+    top: 0px;
+    right: 22px;
+    background-image: url(images/WHoWEAREBg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.introSectiondiv{
+    padding: 60px 0px;
+    position: relative;
+    z-index: 1;
+}
+.introSectiondiv::before{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    height: 99%;
+    width: 57%;
+    top: 41px;
+    left: -76px;
+    background-image: url(images/AbouUSBg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.introAreaText {
+    width: 40%;
+    margin-left: 344px;
+}
+.introH6One h6{
+    font-weight: 400;
+  font-size: 10px;
+  color:#190ae2 ;
+}
+.introH3One h3{
+   font-weight: 700;
+}
+.introPOne {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.introPTwo {
+    margin-bottom: 10px;
+}
+.UsButton input[type=submit]{
+    background-image: linear-gradient(to right, #8a83f1 60%,#665ff3);
+    border: none;
+    border-radius: 26px;
+    padding: 8px 22px;
+    font-size: 9px;
+    color: whitesmoke;
+    font-weight: 700;
+    box-shadow:0px 0px 3px #9792e4;
+}
+.UsButton input[type=submit]:hover{
+     box-shadow: 0px 0px 10px #190ae2;
+}
+/* our intro Section Ends her */
+/* What WeOffer Section Starts here */
+.whatWeOfferDiv {
+    padding: 150px 0px 150px 0px;
+}
+.WHatWEOfferCarts {
+    padding: 43px 0px 0px 0px;
+}
+.ourofferingCart {
+    margin: 10px 10px;
+    padding: 20px 20px;
+    border-radius: 10px;
+    box-shadow:0px 0px 3px #9792e4;
+}
+.ourofferingCart:hover{
+    transition: all .3s ease;
+    box-shadow: 0px 0px 11px #190ae2;
+}
+.offerartImg {
+    width: 35%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.offerCartImgSizing {
+    width: 65%;
+    margin: 0 auto;
+}
+.carth5One {
+    margin-bottom: 20px;
+}
+.cartPone {
+    margin-bottom: 20px;
+}
+.offerCartBtn{
+    margin-left: 90px;
+}
+.offerCartBtn input[type=submit] {
+    background-image: linear-gradient(to right, #190ae2 60%,#6f69f0);
+    border: none;
+    border-radius: 26px;
+    padding: 8px 14px;
+    font-size: 9px;
+    color: whitesmoke;
+    font-weight: 700;
+    box-shadow:0px 0px 3px #9792e4;
+}
+.offerCartBtn input[type=submit]:hover{
+    box-shadow: 0px 0px 10px #190ae2;
+}
+/* What WeOffer Section Ends here */
+/* our pricing Section Starts Here */
+.ourPricingSection {
+    padding: 50px 0px;
+    background-color:#dddbf8;   
+}
+.ourPricingHeading {
+    text-align: center;
+}
+.introH6One h6{
+    font-weight: 400;
+}
+.pricingCarts{
+    padding:50px 0px ;
+}
+.pricingCart {
+    margin: 10px 10px;
+    padding: 24px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px #9792e4;
+    text-align: center;
+    background-color: whitesmoke;
+}
+.pricingCart:hover{
+    transition: all .3s ease;
+    box-shadow: 0px 0px 11px #190ae2;
+}
+.PricingCarth5One {
+    padding-bottom: 20px;
+}
+.pricingPone {
+    padding-bottom: 20px;
+}
+.pricingPTwo {
+    opacity: 1;
+    padding-bottom: 20px;
+}
+.pricingPTwo p{
+    font-size: 15px;
+    font-weight: 700;
+    color:#1100ff ;
+}
+.pricingButton input[type=submit] {
+    border: 1px solid #1100ff ;
+    padding:10px 26px;
+    font-size: 9px;
+    border-radius: 26px;
+    color: #42495B;
+    background-color: whitesmoke;
+}
+.pricingButton input[type=submit]:hover {
+    background-image: linear-gradient(to right, #3224eb ,#8681e9);
+    box-shadow: 0px 0px 8px #8881e0;
+    color: whitesmoke;
+}
+/* our pricing Section Ends Here */
+/* login section starts here */
+.loginHeading {
+    text-align: center;
+    padding: 100px 0px;
+}
+.ActionForm {
+    margin-top: 40px;
+}
+.ActionForm input[type=text]{
+    width: 44%;
+    padding: 13px 11px;
+    border: none;
+    box-shadow: 0px 0px 3px #9d9d9d;
+    border-radius: 3px;
+    margin-right: 15px;
+    font-size: 10px;
+    background-color: rgb(236, 236, 236);
+}
+.ActionForm input[type=submit]{
+    background-image: linear-gradient(to right, #190ae2 60%,#6f69f0);
+    border: none;
+    border-radius: 26px;
+    padding: 13px 27px;
+    font-size: 11px;
+    color: whitesmoke;
+    font-weight: 700;
+}
+.ActionForm input[type=submit]:hover{
+    box-shadow: 0px 0px 10px #8881e0;
+}
+/* login section ENds here */
+/* footer section starts here */
+
+.footerSection {
+    padding: 250px 0px 30px 0px;
+    position: relative;
+    z-index: 1;
+}
+.footerSection ::before{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    height: 234%;
+    width: 205%;
+    left: -869px;
+    bottom: -28px;
+    background-image: url(images/footerBg\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footerSection ::after{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    height: 204%;
+    width: 181%;
+    left: -378px;
+    bottom: 0px;
+    background-image: url(images/footerBg\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box1 {
+    width: 19%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    text-align: center;
+}
+.resizingFooterImg{
+   width: 10%;
+   display: inline-block;
+}
+.resizingFooterImg img{
+   width: 100%;
+}
+.box1 h2{
+    color: whitesmoke;
+    font-size: 22px;
+}
+.box1 h4{
+    color: whitesmoke;
+}
+.footerSocial a:hover{
+    filter: invert(50%);
+}
+.box2{
+    text-align: center;
+    width: 19%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+.box2 h6{
+    color: whitesmoke;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.quiclinks {
+}
+.quiclinks a{
+    display: block;
+    color: whitesmoke;
+    margin-bottom: 8px;
+}
+.quiclinks a:hover{
+      filter: invert(50%);
+}
+.box3 {
+    width: 19%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+.box3 a{
+    color: whitesmoke;
+    font-size: 12px;
+    margin-bottom: 7px;
+}
+.box3 a:hover{
+    filter: invert(50%);
+}
+.box4 {
+    width: 19%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+.box4 h6{
+    color: whitesmoke;
+    font-size: 14px;
+}
+.box4 a{
+    color: whitesmoke;
+}
+.box4 a:hover{
+    filter: invert(50%);
+}
+.ResizingCOntactImg{ 
+    width: 10%;
+    display: inline-block;
+    margin-right: 10px;
+}
+.ResizingCOntactImg img{
+    width: 100%;
+}
+/* footer section ends here */
