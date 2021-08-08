@@ -26,7 +26,7 @@ input[type=submit]{font-family: 'Questrial', sans-serif;}
 
 /* sizing css starts here */
 /* .container{width:min(960px,96%);margin:0 auto; } */
-.container{width:98%;margin:0 auto; background-color: #fffbfb;}
+.container{width:1490px;margin:0 auto; background-color: #fffbfb;}
 .structure{width: 80%;margin:0 auto;}
 /* sizing css ends here 
 
